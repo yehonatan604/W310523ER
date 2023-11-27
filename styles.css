@@ -28,6 +28,7 @@
 }
 
 .register-text,
+.users-list-text,
 .register-form {
     margin: 2em;
 }
@@ -37,6 +38,23 @@ input {
     border: 0;
     border-radius: 5px;
     border-bottom: 3px solid silver;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    margin: 2em;
+}
+
+tr {
+    text-align: center;
+    vertical-align: center;
+}
+
+th {
+    background-color: rgb(221, 221, 221);
+    padding: 8px;
 }
 
 .btn {
