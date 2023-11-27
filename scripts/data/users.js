@@ -21,3 +21,9 @@ let users = [
         isLogedIn: false
     }
 ];
+
+for (let user of users) {  // arrays
+    for (let key in user) {  // objects
+        console.log(key);
+    }
+}
