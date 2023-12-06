@@ -12,7 +12,6 @@ for (let user of users) {
 submitBtn.addEventListener('click', (event) => {
     event.preventDefault();
 
-
     const user = {
         fname: event.target.form["fname"].value,
         lname: event.target.form['lname'].value,
@@ -26,4 +25,6 @@ submitBtn.addEventListener('click', (event) => {
         let cell = row.insertCell();
         cell.textContent = user[key];
     }
+
+    // clean fields
 });
