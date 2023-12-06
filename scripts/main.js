@@ -10,6 +10,7 @@ for (let user of users) {
 }
 
 submitBtn.addEventListener('click', (event) => {
+    console.log(event);
     event.preventDefault();
 
     const user = {
@@ -27,4 +28,10 @@ submitBtn.addEventListener('click', (event) => {
     }
 
     // clean fields
+    for (let input of event.target.form) {
+        if (input.id != 'submitBtn') {
+            input.value = ""
+        };
+    }
+
 });
