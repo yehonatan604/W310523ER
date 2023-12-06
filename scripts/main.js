@@ -7,6 +7,8 @@ for (let user of users) {
         let cell = row.insertCell();
         cell.textContent = user[key];
     }
+    let cell = row.insertCell();
+    document.createElement('btn');
 }
 
 submitBtn.addEventListener('click', (event) => {
