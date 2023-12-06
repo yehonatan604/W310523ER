@@ -22,8 +22,8 @@ let users = [
     }
 ];
 
-for (let user of users) {  // arrays
-    for (let key in user) {  // objects
-        console.log(key);
-    }
-}
+// for (let user of users) {  // arrays
+//     for (let key in user) {  // objects
+//         console.log(user[key]);
+//     }
+// }
